@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/ic_menu_search"
+            android:title="Find a Specialist" />
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/heart"
+            android:title="Medical History" />
+        <item
+            android:id="@+id/nav_pill"
+            android:icon="@drawable/pills"
+            android:title="Pharmacy" />
+        <item
+            android:id="@+id/nav_linedoc"
+            android:icon="@drawable/doctor"
+            android:title="Online Diagnosis" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>
